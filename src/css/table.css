@@ -1,0 +1,14 @@
+.section-table {
+    height: 75%;
+    background-color: #6a6a6a;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-table-sidebar {
+    border: 1px solid red;
+}
+
+.section-table-main {
+    flex-grow: 1;
+}
