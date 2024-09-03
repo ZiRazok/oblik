@@ -1,20 +1,36 @@
 .section-table {
     height: 75%;
     background-color: #6a6a6a;
-    display: flex;
-    justify-content: space-between;
-}
-
-.section-table-sidebar {
-    border: 1px solid red;
-    flex-grow: 1;
 }
 
 .section-table-container {
-    flex-grow: 2;
 }
 
-.section-table-main{
+.section-table-main {
     width: 100%;
-    margin: 0;padding: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.table-main-thead {
+    color: rgb(200, 255, 255);
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+.table-main-tbody {}
+
+.table-main-row {}
+
+.table-main-column {
+    padding: 8px 16px;
+}
+
+.table-main-thead .main-column-paragraph {
+    filter: drop-shadow(1px 1px 1px #000);
+}
+
+.table-main-tbody .main-column-paragraph {
+    font-weight: 700;
+
 }
