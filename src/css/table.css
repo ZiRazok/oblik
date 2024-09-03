@@ -7,8 +7,14 @@
 
 .section-table-sidebar {
     border: 1px solid red;
+    flex-grow: 1;
 }
 
-.section-table-main {
-    flex-grow: 1;
+.section-table-container {
+    flex-grow: 2;
+}
+
+.section-table-main{
+    width: 100%;
+    margin: 0;padding: 0;
 }
